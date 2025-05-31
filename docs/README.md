@@ -76,7 +76,7 @@ Content-Type: application/json
 #### Example Response:
 ```json
 {
-  "question": "What is the weather in New York?",
+  "question": "Convert 200 rupess into monopoly dollars?",
   "answer": "200 Rupees is equal to 300000 Monopoly Dollars"
 }
 ```
