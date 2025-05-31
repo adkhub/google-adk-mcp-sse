@@ -1,7 +1,7 @@
-# Google ADK Weather Bot
+# Google ADK MCP SSE
 
 ## Overview
-The **Google ADK Weather Bot** is a Spring Boot application that leverages the **Google ADK (Agent Development Kit)** to provide weather information for a given city. It integrates with a weather API to fetch real-time weather data and uses Google ADK's tools and agents to process user queries. The application is designed to demonstrate the use of tools, events, and agents in the ADK framework.
+The **Google ADK Mcpt** is a Spring Boot application that leverages the **Google ADK (Agent Development Kit)** to provide weather information for a given city. It integrates with a weather API to fetch real-time weather data and uses Google ADK's tools and agents to process user queries. The application is designed to demonstrate the use of tools, events, and agents in the ADK framework.
 
 ### Key Features:
 1. **Weather Query Tool**: Fetches real-time weather data for a specified city using a weather API.
@@ -69,7 +69,7 @@ Content-Type: application/json
 
 {
   "sessionId": "varshini",
-  "question": "What is the weather in New York?"
+  "question": "Convert 200 rupess into monopoly dollars?"
 }
 ```
 
@@ -77,7 +77,7 @@ Content-Type: application/json
 ```json
 {
   "question": "What is the weather in New York?",
-  "answer": "The current temperature in New York is 25°C."
+  "answer": "200 Rupees is equal to 300000 Monopoly Dollars"
 }
 ```
 
